@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: H05rBID3eALO95l1bPKl+3hw65l67qsqs7prSVTCooC449K925HuJcmq9Pvm77o6r+gtsw05Splply1YIZF3flGCcp7KgoPZRuWyUwIyUo6SRU2ueYuvWn5KQrcdVeSzC3bhMpoAPcjMsu5Q+wsE6gJ2I4au/bgGU0+/PJJGdaceOAxeiO6H7DPmRvDgReZ9s9RRRu8qieE+9NHJDVVzzQ2nmjLuKCkIPwjmpc8WfumGGS5AW0okoD/LY885kNwPsXzr32aeXpzMfdO7/dUf25K/eNLgsY4V8E1c5RsSW1qJLGZqAK7rg+hHVdbDp9F0kBKRRWrCVezm7O4PgJmeOfLAX/pNaAdquj69AfyVWHYkh1uhjm2sKlG/afpcoLcH6UJN+Ah6rClQRqpdKp+gCuFozORNP5iOw9LJtibKMjCUcyGcsk6AxkbbNdTmQ5OcZv3+2cDNsPP6tLbA4Jivz5ENFxZdJvKcwmfGste3Xi+Wow6Gce1UhT5LGid7C4wNuzx6XfX5JAIStZ5v4DFda7CCNglZFnUxMrpgp4Vt/VXXJEGJnRN1jg5+MM69UUS2NgEoTftbpy2PSW0N8I85hUikmMqOWSixRR0wG0fmUMCDQNxuvry9pdxxpTmE94BnwNNB57q0qSpG3RwHrmMqgjKRl9TRg+jlvZOP/DgjE7Q=
+  app: polar-inlet-20759
+  on:
+    repo: marissafaulkner/node-shopping-list-integration-tests
